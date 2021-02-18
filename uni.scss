@@ -1,0 +1,37 @@
+@import "uview-ui/theme.scss";
+
+
+// 主题色
+$main-title-color: #2c4862;
+$main-theme-color: #a9e3db;
+$main-bg-color: #fcfcfc;
+$main-icon-color: #f6a377;
+// 灰度
+.bg-gray {
+	-webkit-filter: grayscale(1); /* Webkit */
+	filter: gray; /* IE6-9 */  
+	filter: grayscale(1); /* W3C */
+}
+.line-theme {
+	border-color: $main-theme-color;
+}
+
+.bg-fc {
+	background: $main-bg-color;
+}
+
+.bg-theme {
+	background: $main-theme-color;
+}
+.bg-icon {
+	background: $main-icon-color;
+}
+.color-title {
+	color: $main-title-color;
+}
+.color-theme {
+	color: $main-theme-color;
+}
+.width-max {
+	width: 100%;
+}
